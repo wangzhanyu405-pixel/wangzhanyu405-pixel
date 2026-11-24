@@ -10,7 +10,7 @@
 
 [在线体验分箱与扫码](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/carton-label/) · [查看演示代码与运行步骤](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/projects/carton-label)
 
-![箱贴分箱与出入库演示](https://raw.githubusercontent.com/wangzhanyu405-pixel/wangzhanyu405-pixel/main/projects/carton-label/preview.png)
+![箱贴分箱与出入库演示](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/carton-label/preview.png)
 
 ## 报销审核与凭证归档
 
@@ -20,7 +20,7 @@
 
 [查看这 5 笔申请的核对结果](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/expense-review/output/review.html) · [查看示例数据、审核代码与运行步骤](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/projects/expense-review)
 
-![虚构报销申请的核对结果](https://raw.githubusercontent.com/wangzhanyu405-pixel/wangzhanyu405-pixel/main/projects/expense-review/preview.png)
+![虚构报销申请的核对结果](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/expense-review/preview.png)
 
 ## 应收应付对账
 
@@ -30,4 +30,4 @@
 
 [在线体验人工核销](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/reconciliation/) · [查看对账示例与运行步骤](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/projects/reconciliation)
 
-![模拟流水与发票的核对结果](https://raw.githubusercontent.com/wangzhanyu405-pixel/wangzhanyu405-pixel/main/projects/reconciliation/preview.png)
+![模拟流水与发票的核对结果](https://wangzhanyu405-pixel.github.io/wangzhanyu405-pixel/projects/reconciliation/preview.png)
