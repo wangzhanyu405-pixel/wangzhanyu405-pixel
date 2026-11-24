@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>装箱与流转工作台</title><link rel="stylesheet" href="style.css">
+<script defer src="demo.js"></script>
+</head>
+<body>
+<header><div class="brand"><span class="mark" aria-hidden="true">▦</span> 包装作业台</div><span class="local">● 本机演示</span></header>
+<main>
+<div class="headline"><div><p class="eyebrow">PACKING &amp; DISPATCH</p><h1>装箱与流转</h1><p class="note">订单 DEMO-042 · 折叠展示盒 · 料号 PK-07</p></div><button class="plain" id="reset">重置演示</button></div>
+<section class="setup"><h2>装箱参数</h2><form id="split"><label>订单数量（件）<input id="qty" type="number" min="1" max="99999" required value="250"></label><label>每箱标准装量（件）<input id="capacity" type="number" min="1" max="99999" required value="100"></label><button class="primary">生成分箱</button></form></section>
+<div class="work"><section class="panel"><div class="section-head"><h2>分箱清单</h2><span class="count" id="total"></span></div>
+<div class="table-scroll"><table><thead><tr><th>箱号</th><th>装量</th><th>箱型</th><th>流转状态</th><th>箱贴</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="action"><button id="register" class="primary">登记本批打印</button><button id="paper" class="plain">打印选中箱贴</button></div>
+<div class="scanner"><h2>扫码登记</h2><form id="scan"><label>箱码<input id="code" inputmode="numeric" placeholder="扫描或粘贴 13 位箱码" autocomplete="off" required></label><label>作业<select id="operation"><option value="in">入库</option><option value="out">出库</option><option value="lookup">追溯</option></select></label><button class="primary">提交</button></form></div>
+<p id="message" aria-live="polite"></p>
+</section>
+<aside><section class="paper" aria-label="当前箱贴"><span class="paper-kicker">CARTON LABEL</span><div class="paper-head"><h2>折叠展示盒</h2><strong id="position"></strong></div><div class="paper-mid"><span>DEMO-042 / PK-07</span><b id="units"></b></div><div id="barcode"></div><div id="digits"></div></section>
+<section class="timeline"><div class="section-head"><h2>单箱追溯</h2><span id="selected-box" class="count"></span></div><ol id="events"></ol></section></aside></div>
+</main></body></html>

@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><title>报销核对结果</title>
+    <style>
+    *{box-sizing:border-box}html{background:#f3f5f4;color:#1c302d;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif}
+    body{margin:0}main{margin:38px auto;max-width:1112px;background:white;border:1px solid #d5dfdc;padding:32px}
+    h1{font-size:34px;margin:0 0 8px;letter-spacing:-1px}p{color:#50655e;margin:0;font-size:15px}
+    .counts{display:flex;margin:27px 0 23px;padding:17px 0;border-block:1px solid #d3dfda}
+    .metric{flex:1;padding:0 18px;border-right:1px solid #d3dfda}.metric:first-child{padding-left:0}.metric:last-child{border:0}
+    .metric b{font-size:30px;margin-right:9px}.metric span{font-size:15px}table{width:100%;border-collapse:collapse;font-size:14px}
+    th{text-align:left;background:#eaf0ed;color:#374d45}td,th{padding:13px 8px;border-bottom:1px solid #e2e7e4}
+    td{font-variant-numeric:tabular-nums}th:nth-child(4),.money{text-align:right;white-space:nowrap}.tag{font-weight:600;white-space:nowrap}
+    .ok{color:#17634d}.check{color:#925719}.missing{color:#aa3e38}footer{margin-top:20px;font-size:13px;color:#586961}
+    @media(max-width:830px){main{margin:0;padding:18px}.scroll{overflow-x:auto}table{min-width:860px}.metric{padding:0 6px}}
+    </style><main><h1>报销核对结果</h1><p>演示数据 · 5 笔申请与 3 张凭证</p>
+    <section class="counts"><div class="metric"><b>5</b><span>申请总数</span></div><div class="metric"><b>2</b><span>匹配成功</span></div><div class="metric"><b>2</b><span>重复待核</span></div><div class="metric"><b>1</b><span>缺少凭证</span></div></section><div class="scroll"><table>
+    <thead><tr><th>申请号</th><th>员工代号</th><th>费用项目</th><th>申请金额</th><th>审核结果</th><th>候选凭证</th><th>复核说明</th></tr></thead><tbody><tr><td class="">REQ-001</td><td class="">DEMO-A</td><td class="">跨区交通</td><td class="money">CNY 86.50</td><td class=""><span class="tag ok">匹配成功</span></td><td class="">R-101</td><td class="">申请与凭证一一对应</td></tr><tr><td class="">REQ-002</td><td class="">DEMO-B</td><td class="">资料打印</td><td class="money">CNY 32.00</td><td class=""><span class="tag ok">匹配成功</span></td><td class="">R-102</td><td class="">申请与凭证一一对应</td></tr><tr><td class="">REQ-003</td><td class="">DEMO-A</td><td class="">市内出行</td><td class="money">CNY 48.00</td><td class=""><span class="tag check">重复待核</span></td><td class="">R-103</td><td class="">2 笔同额申请对应 1 张候选凭证</td></tr><tr><td class="">REQ-004</td><td class="">DEMO-A</td><td class="">市内出行</td><td class="money">CNY 48.00</td><td class=""><span class="tag check">重复待核</span></td><td class="">R-103</td><td class="">2 笔同额申请对应 1 张候选凭证</td></tr><tr><td class="">REQ-005</td><td class="">DEMO-C</td><td class="">展会寄件</td><td class="money">CNY 24.50</td><td class=""><span class="tag missing">缺少凭证</span></td><td class="">—</td><td class="">查无同员工、同币种、同金额凭证</td></tr></tbody>
+    </table></div><footer>匹配依据为员工代号、币种和金额。重复组保留全部候选凭证，供人工确认归属。</footer></main></html>
