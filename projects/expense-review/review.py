@@ -89,7 +89,7 @@ def write_html(path, rows, receipt_count):
     <style>{style}</style><main><h1>报销核对结果</h1><p>演示数据 · {len(rows)} 笔申请与 {receipt_count} 张凭证</p>
     <section class="counts">{summary}</section><div class="scroll"><table>
     <thead><tr>{''.join('<th>'+h+'</th>' for h in headers)}</tr></thead><tbody>{''.join(table)}</tbody>
-    </table></div><footer>匹配依据为员工代号、币种和金额。重复组保留全部候选凭证，供人工确认归属。</footer></main></html>""",encoding="utf-8")
+    </table></div><footer>匹配依据为员工代号、币种和金额。重复组保留全部候选凭证，供人工确认归属。</footer><p class="source-link"><a href="https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/source/expense-review-archive">查看报销审核与归档完整源码 ↗</a></p></main></html>""",encoding="utf-8")
 
 
 def main():

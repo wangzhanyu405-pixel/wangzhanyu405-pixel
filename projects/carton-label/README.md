@@ -1,5 +1,7 @@
 # 装箱与流转工作台
 
+[箱贴打印与溯源完整源码](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/source/carton-label-platform)
+
 用一张虚构订单演示包装现场的单箱流转。输入 250 件、每箱标准装量 100 件，系统拆成两个 100 件满箱和一个 50 件尾箱。每箱有独立条码，可以依次登记打印、入库、出库并查看时间记录。
 
 ![演示工作台的分箱结果和单箱流转记录](preview.png)

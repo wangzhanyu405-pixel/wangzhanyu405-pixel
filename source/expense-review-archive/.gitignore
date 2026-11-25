@@ -1,0 +1,25 @@
+# 用户只能在自己的工作区中保存规则、输入、运行结果和凭据
+config*.json
+!config.example.json
+.env*
+*.pem
+*.key
+*.doc*
+*.pdf
+*.xls*
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.log
+*.zip
+*.jsonl
+输入*/
+输出*/
+结果/
+temp_*/
+.build/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

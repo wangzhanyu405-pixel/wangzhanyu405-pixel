@@ -1,5 +1,7 @@
 # 人工核销工作台
 
+[应收应付对账完整源码](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/source/ar-ap-reconciliation)
+
 一个可直接点击的财务对账样例。每个往来单位有一张发票和一笔同方向的银行流水。切换单位可以查看单据，确认核销后，发票未结余额随之更新。
 
 ![供应商部分核销后的界面](preview.png)

@@ -1,0 +1,10 @@
+[theme]
+# 淡蓝主题,车间用眼更舒适
+primaryColor = "#1e88e5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f7fa"
+textColor = "#262730"
+
+
+[browser]
+gatherUsageStats = false

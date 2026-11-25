@@ -1,5 +1,7 @@
 # 报销申请与凭证核对
 
+[报销审核与归档完整源码](https://github.com/wangzhanyu405-pixel/wangzhanyu405-pixel/tree/main/source/expense-review-archive)
+
 同一员工有两笔 48 元的报销申请，系统只有一张 48 元凭证。直接按金额关联会让两笔都显得有据可查。这个示例检查同组申请与凭证的数量，将冲突的两笔都交给审核人，并保留对应的凭证号。
 
 ![示例运行结果，5 笔申请中 2 笔唯一匹配，2 笔重复待核，1 笔缺少凭证](preview.png)
